@@ -1,0 +1,52 @@
+:root {
+	--ml-color: red; /*Fallback color*/
+}
+.glisten {
+	border-bottom: solid 5px var(--ml-color);
+	border-radius: 0px 0px 5px 5px !important;
+}
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .link-container, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__dropdown, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__favbtn {
+	background-color: var(--ml-color) !important;
+	border-color: rgba(255, 255, 255, 0.116);
+}
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten {
+	background-color: var(--ml-color);
+}
+.glisten .material-icons {
+	position: absolute;
+	left: -3px;
+    top: -4px;
+}
+.glisten .link-container > span {
+	position: relative; 
+	padding-left: 24px;
+}
+
+
+/* Override some uses of the original purple to be nicer :) */
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .link-container:hover,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .link-container:focus,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__dropdown:hover,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__dropdown:focus,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__favbtn:hover,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__favbtn:focus {
+	border-top: 1px solid #ffffffa6;
+    border-right: 1px solid #ffffffa6;
+    border-bottom: 1px solid #ffffffa6;
+    border-left: 1px solid #ffffffa6;
+}
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.dropdown-is-visible.glisten .link-container,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.dropdown-is-visible.glisten .Mrphs-sitesNav__dropdown,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.dropdown-is-visible.glisten .Mrphs-sitesNav__favbtn {
+	border-top: 1px solid #ffffff21;
+    border-right: 1px solid #ffffff21;
+    border-bottom: 1px solid #ffffff21;
+    border-left: 1px solid #ffffff21;
+}
+.glisten a[href]:focus {
+	outline: 2px solid #ffffff83;
+    outline-offset: 1px;
+}
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__submenu {
+    border-color: var(--ml-color);
+}

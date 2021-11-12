@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Moonlight",
+	"version": "0.2",
+
+	"description": "Add highlight colors and icons to help locate OWL classes faster.",
+
+	"content_scripts": [{
+		"matches": ["https://owl.uwo.ca/portal/*","http://owl.uwo.ca/portal/*"],
+		"js": ["jquery-3.6.0.js","glisten.js"],
+		"css": ["moonlight.css"]
+	}]
+}
