@@ -7,7 +7,8 @@ After:
 ![After image showing the same list of classes, now with colors and icons](readme-images/after.png)
 
 Moonlight also consistently colors active states and additional elements, to be more consistent:
+
 ![Image showing an expanded colorized menu](readme-images/menu.png)
 
 ## Adding classes
-Moonlight relies on an internal list of classes, so if you know of some classes that are not already in the list, please create an issue or reach out with a recommended icon from [Google Fonts](https://fonts.google.com/icons), and a color with **preferred white foreground text.**
+Moonlight relies on an internal list of classes, so if you know of some classes that are not already in the list, please create an issue or reach out with a recommended **Material Symbol** from [Google Fonts](https://fonts.google.com/icons), and a color with **preferred white foreground text.**
