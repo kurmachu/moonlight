@@ -2,12 +2,15 @@ $('head').append(`<link href="https://fonts.googleapis.com/icon?family=Material+
 
 var classes = { //Dictionary of classes with associated icon and css color (All valid css colors work. Material icon names from Google Fonts)
 	"NMM 1412A": {color:"green", icon: "calculate"},
+	"NMM 1414B": {color:"green", icon: "calculate"},
 	"BUSINESS 1299E": {color: "#fa415a", icon: "work"},
 	"CHEM 1302A": {color: "orange", icon: "science"},
 	"ENGSCI 1022Y": {color: "#0051ff", icon: "compress"},
 	"PHYSICS 1401A": {color: "#00b0bd", icon: "compare_arrows"},
+	"PHYSICS 1402B": {color: "#00b0bd", icon: "compare_arrows"},
 	"ENGSCI 1021A": {color: "#743400", icon: "widgets"},
 	"ENGSCI 1050": {color: "#960c8f", icon: "engineering"},
+	"ENGSCI 1036B": {color: "#07bb89", icon: "code"},
 	// "": {color: "", icon: ""},
 }
 var projects = { //Like classes, but matches whole title exactly.
