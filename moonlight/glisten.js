@@ -12,6 +12,7 @@ var classes = { //Dictionary of classes with associated icon and css color (All 
 	"ENGSCI 1050": {color: "#960c8f", icon: "engineering"},
 	"ENGSCI 1036B": {color: "#07bb89", icon: "code"},
 	"WRITING 2130F": {color: "#d1b736", icon: "menu_book"},
+	"NMM 1411B": {color: "#00ba70", icon: "data_array"},
 	// "": {color: "", icon: ""},
 }
 var projects = { //Like classes, but matches whole title exactly.
