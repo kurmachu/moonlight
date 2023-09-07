@@ -2,15 +2,10 @@
 	--ml-color: red; /*Fallback color*/
 }
 .glisten {
-	border-bottom: solid 5px var(--ml-color);
-	border-radius: 0px 0px 5px 5px !important;
+	outline: 2px solid var(--ml-color);
 }
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .link-container, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__dropdown, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__favbtn {
-	background-color: var(--ml-color) !important;
-	border-color: rgba(255, 255, 255, 0.116);
-}
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten {
-	background-color: var(--ml-color);
+.glisten .Mrphs-sitesNav__submenu.is-visible {
+    outline: 2px solid var(--ml-color);
 }
 .material-symbols-rounded {
   font-variation-settings:
@@ -21,39 +16,57 @@
 }
 .glisten .material-symbols-rounded {
 	position: absolute;
-	left: -3px;
-    top: -4px;
+    left: -6px;
+    top: -5px;
 }
 .glisten .link-container > span {
 	position: relative; 
 	padding-left: 24px;
 }
+#linkNav ul li.Mrphs-sitesNav__menuitem.glisten .link-container:focus,
+#linkNav ul li.Mrphs-sitesNav__menuitem.glisten .Mrphs-sitesNav__favbtn:focus,
+#linkNav ul li.Mrphs-sitesNav__menuitem.glisten .Mrphs-sitesNav__dropdown:focus {
+    box-shadow: none;
+    background-color: transparent;
+    background: transparent !important;
+    border: 1px solid transparent;
+}
+#linkNav ul li.Mrphs-sitesNav__menuitem.glisten .link-container:focus-visible,
+#linkNav ul li.Mrphs-sitesNav__menuitem.glisten .Mrphs-sitesNav__favbtn:focus-visible,
+#linkNav ul li.Mrphs-sitesNav__menuitem.glisten .Mrphs-sitesNav__dropdown:focus-visible {
+    box-shadow: 0px 0px 0px 3px var(--ml-color);
+}
 
+.glisten {
+	/* --sakai-active-color-3: var(--ml-color);
+	--sakai-active-color-2: var(--ml-color);
+	--sakai-active-color-1: var(--ml-color); */
 
-/* Override some uses of the original purple to be nicer :) */
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .link-container:hover,
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .link-container:focus,
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__dropdown:hover,
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__dropdown:focus,
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__favbtn:hover,
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__favbtn:focus {
-	border-top: 1px solid #ffffffa6;
-    border-right: 1px solid #ffffffa6;
-    border-bottom: 1px solid #ffffffa6;
-    border-left: 1px solid #ffffffa6;
+	--sakai-primary-color-1: var(--ml-color);
+    --sakai-primary-color-2: var(--ml-color-darker);
+    --sakai-primary-color-3: var(--ml-color-darkerer);
+    --sakai-active-color-1: var(--ml-color);
+    --sakai-active-color-2: var(--ml-color-darker);
+    --sakai-active-color-3: var(--ml-color-darkerer);
+
+	--sites-nav-menu-item-selected-background: var(--sakai-active-color-1);
+	--sites-nav-menu-item-selected-border-color: var(--sites-nav-menu-item-selected-background);
+	--sites-nav-menu-item-selected-hover-icon-background: var(--sakai-active-color-3);
+    --sites-nav-menu-item-selected-hover-icon-border-color: var(--sites-nav-menu-item-selected-hover-icon-background);
+	--sites-nav-menu-item-selected-hover-background: var(--sakai-active-color-2);
+    --sites-nav-menu-item-selected-hover-color: var(--sakai-text-color-3);
+	--sites-nav-menu-item-selected-hover-border-color: var(--sites-nav-menu-item-selected-hover-background);
+	--sites-nav-menu-item-selected-active-background: var(--sakai-active-color-3);
+    --sites-nav-menu-item-selected-active-border-color: var(--sites-nav-menu-item-selected-active-background);
+	--sites-nav-menu-item-selected-active-icon-background: var(--sites-nav-menu-item-selected-active-background);
+    --sites-nav-menu-item-selected-active-icon-border-color: var(--sites-nav-menu-item-selected-active-background);
+	--sites-nav-submenu-selected-background: var(--sites-nav-menu-item-selected-background);
+	--sites-nav-submenu-item-selected-hover-background: var(--sites-nav-menu-item-selected-hover-background);
+	--sites-nav-menu-item-selected-hover-color: var(--sakai-primary-color-2);
+	--sites-nav-submenu-item-selected-active-background: var(--sakai-primary-color-3);
 }
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.dropdown-is-visible.glisten .link-container,
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.dropdown-is-visible.glisten .Mrphs-sitesNav__dropdown,
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.dropdown-is-visible.glisten .Mrphs-sitesNav__favbtn {
-	border-top: 1px solid #ffffff21;
-    border-right: 1px solid #ffffff21;
-    border-bottom: 1px solid #ffffff21;
-    border-left: 1px solid #ffffff21;
+
+.glisten.is-selected .Mrphs-sitesNav__submenuitem-link:focus {
+	outline-color: white;
 }
-.glisten a[href]:focus {
-	outline: 2px solid #ffffff83;
-    outline-offset: 1px;
-}
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.glisten .Mrphs-sitesNav__submenu {
-    border-color: var(--ml-color);
-}
+
