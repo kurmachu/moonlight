@@ -1,4 +1,4 @@
-// Version 4.0 - https://stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
+// Version 0.5.1 - https://stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
 const pSBC=(p,c0,c1,l)=>{
     let r,g,b,P,f,t,h,i=parseInt,m=Math.round,a=typeof(c1)=="string";
     if(typeof(p)!="number"||p<-1||p>1||typeof(c0)!="string"||(c0[0]!='r'&&c0[0]!='#')||(c1&&!a))return null;
@@ -41,9 +41,10 @@ var classes = { //Dictionary of classes with associated icon and css color (Mate
 
 	//It's a new year!
 	"SE 2202A": {color: "#d1c043", icon: "code"},
-	"NMM 2270A": {color: "#1dcf76", icon: "percent"},
+	"NMM 2270A": {color: "#1dcf76", icon: "function"},
 	"STATS 2141A": {color: "#76d600", icon: "monitoring"},
 	"ECE 2277A": {color: "#d69600", icon: "memory_alt"},
+	"SE 2205A": {color: "#c42e00", icon: "schema"},
 
 	// "": {color: "", icon: ""},
 }
