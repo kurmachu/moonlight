@@ -45,6 +45,7 @@ var classes = { //Dictionary of classes with associated icon and css color (Mate
 	"STATS 2141A": {color: "#76d600", icon: "monitoring"},
 	"ECE 2277A": {color: "#d69600", icon: "memory_alt"},
 	"SE 2205A": {color: "#c42e00", icon: "schema"},
+	"MATH 2151A": {color: "#a1b304", icon: "page_control"},
 
 	// "": {color: "", icon: ""},
 }
