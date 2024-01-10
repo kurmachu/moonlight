@@ -39,13 +39,20 @@ var classes = { //Dictionary of classes with associated icon and css color (Mate
 	"WRITING 2130F": {color: "#d1b736", icon: "menu_book"},
 	"NMM 1411B": {color: "#00ba70", icon: "data_array"},
 
-	//It's a new year!
+	//Year 2 Term 1
 	"SE 2202A": {color: "#d1c043", icon: "code"},
 	"NMM 2270A": {color: "#1dcf76", icon: "function"},
 	"STATS 2141A": {color: "#76d600", icon: "monitoring"},
 	"ECE 2277A": {color: "#d69600", icon: "memory_alt"},
 	"SE 2205A": {color: "#c42e00", icon: "schema"},
 	"MATH 2151A": {color: "#a1b304", icon: "page_control"},
+
+	//Year 2 Term 2
+	"NMM 2276B": {color: "#4ec41f", icon: "shape_line"},
+	"SE 2250B": {color: "#3249ba", icon: "deployed_code"},
+	"SE 2203B": {color: "#d4853b", icon: "grid_guides"},
+	"ECE 2238B": {color: "#baa147", icon: "electrical_services"},
+	"MUSIC 2704B": {color: "#821fa3", icon: "music_note"},
 
 	// "": {color: "", icon: ""},
 }
